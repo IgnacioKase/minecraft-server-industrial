@@ -13,8 +13,7 @@ services:
       TYPE: FORGE
       VERSION: 1.12.2
       FORGEVERSION: 14.23.5.2854
-      WORLD: /worlds/industrial/
-      ONLINE_MODE: "FALSE"
+      WORLD: /worlds/industrial/       ONLINE_MODE: "FALSE"
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       OPS: "Stherlode,KlosTher,blerryzt"
     volumes:
