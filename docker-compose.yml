@@ -1,4 +1,4 @@
-version: "3.7"
+version: "3"
 
 services:
   mc:
@@ -16,10 +16,10 @@ services:
       WORLD: /worlds/industrial
     volumes:
     # use a named, managed volume for data volume
-    - mc_forge:/data
+      - mc_forge:/data
     # attach local host directory "mods" in same directory as this compose file
     # all mods in this directory get copied into /data/mods at startup
-    - ./mods:/mods:ro
+      - ./mods:/mods:ro
 
 volumes:
   # declared the named volume, but use default/local storage engine
