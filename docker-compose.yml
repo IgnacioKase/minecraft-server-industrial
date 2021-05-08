@@ -13,9 +13,10 @@ services:
       TYPE: FORGE
       VERSION: 1.12.2
       FORGEVERSION: 14.23.5.2854
-      WORLD: /worlds/industrial_2/
+      WORLD: /worlds/ic2
       ONLINE_MODE: "TRUE"
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
+      VIEW_DISTANCE: 16
       OPS: "Stherlode,KlosTher,blerryzt"
     volumes:
     # use a named, managed volume for data volume
