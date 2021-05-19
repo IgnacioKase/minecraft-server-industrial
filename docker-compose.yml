@@ -14,11 +14,11 @@ services:
       VERSION: 1.12.2
       FORGEVERSION: 14.23.5.2854
       WORLD: /worlds/ic2
-      ONLINE_MODE: "TRUE"
+      ONLINE_MODE: "FALSE"
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
-      DIFFICULTY: 0
       VIEW_DISTANCE: 16
       OPS: "Stherlode,KlosTher,blerryzt"
+      JVM_OPTS: "-Xmx7g -Xms5g"
     volumes:
     # use a named, managed volume for data volume
       - mc_forge:/data
