@@ -18,6 +18,7 @@ services:
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       VIEW_DISTANCE: 16
       OPS: "Stherlode,KlosTher,blerryzt"
+      JVM_OPTS: "-Xmx7g -Xms5g"
     volumes:
     # use a named, managed volume for data volume
       - mc_forge:/data
