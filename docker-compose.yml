@@ -14,9 +14,10 @@ services:
       VERSION: 1.12.2
       FORGEVERSION: 14.23.5.2854
       WORLD: /worlds/ic2
-      ONLINE_MODE: "FALSE"
+      ONLINE_MODE: "TRUE"
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       VIEW_DISTANCE: 16
+      DIFFICULTY: 0
       OPS: "Stherlode,KlosTher,blerryzt"
       JVM_OPTS: "-Xmx7g -Xms5g"
     volumes:
